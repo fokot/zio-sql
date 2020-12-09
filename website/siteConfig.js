@@ -30,12 +30,12 @@ const siteConfig = {
   organizationName: 'zio',
 
   // For no header links in the top nav bar -> headerLinks: [],
-  headerLinks: [
-    {doc: 'overview/overview_index', label: 'Overview'},
-    {doc: 'usecases/usecases_index', label: 'Use Cases'},
-    {href: 'api/index.html', label: 'API'},
-    {doc: 'about/about_index', label: 'About'}
-  ],
+  headerLinks: [],
+  //   {doc: 'overview/index', label: 'Overview'},
+  //   {doc: 'usecases/index', label: 'Use Cases'},
+  //   // {href: 'api/index.html', label: 'API'},
+  //   // {doc: 'about/about_index', label: 'About'}
+  // ],
 
   // by default Docusaurus combines CSS files in a way that doesn't play nicely with Scaladoc
   separateCss: ["api"],
