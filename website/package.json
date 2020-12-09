@@ -7,7 +7,6 @@
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
     "rename-version": "docusaurus-rename-version",
-    "deploy": "docusaurus deploy"
   },
   "devDependencies": {
     "docusaurus": "^1.12.0",
