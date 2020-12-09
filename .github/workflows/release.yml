@@ -20,7 +20,7 @@ jobs:
         git config --global user.name "zio-sql Docs"
         git config --global user.email "zio-sql-docs@users.noreply.github.com"
         eval "$(ssh-agent -s)"
-        ssh-add - ${{ secrets.GITHUB_TOKEN }}
+        ssh-add - <<< "${{ secrets.SSH_PRIVATE_KEY }}"
         sbt docs/mdoc
         cd website
         yarn install
