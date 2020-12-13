@@ -30,7 +30,7 @@ jobs:
         sbt docs/mdoc
         cd website
         yarn install
-        yarn publish-gh-pages
+        USE_SSH=true yarn publish-gh-pages
       env:
          TOKEN: ${{ secrets.DEPLOY_KEY }}
          USE_SSH: true
