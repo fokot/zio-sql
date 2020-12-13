@@ -23,7 +23,7 @@ const users = [
 const siteConfig = {
   title: 'zio-sql',
   tagline: 'TODO: Tagline',
-  url: 'https://zio.github.io',
+  url: 'https://fokot.github.io',
   baseUrl: '/zio-sql/',
 
   projectName: 'zio-sql',
